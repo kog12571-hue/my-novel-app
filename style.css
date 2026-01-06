@@ -15,10 +15,17 @@ body { background-color: var(--bg-color); color: var(--text-color); font-family:
 /* Grid Layout for Books */
 .featured-list-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 10px;
+    grid-template-columns: repeat(3, 1fr); /* အကွက် ၃ ကွက် အညီအမျှခွဲခြင်း */
+    gap: 8px; /* စာအုပ်တစ်အုပ်နဲ့တစ်အုပ် ကြားအကွာအဝေး */
+    padding: 10px 5px;
 }
+
+.featured-novel-card {
+    width: 100%; /* အကွက်ထဲမှာ အပြည့်ဖြစ်စေရန် */
+    display: flex;
+    flex-direction: column;
+}
+
 
 .featured-novel-card {
     background: var(--card-bg);
