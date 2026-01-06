@@ -3,33 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MM Xianxia - စိတ်ကူးယဉ် ဝတ္ထုများ</title>
+    <title>MM Xianxia - စိတ်ကူးယဉ် ဝတ္ထုများ (Final Layout)</title>
+    
     <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Temporarily defining basic icons here if FA is not linked, 
+           or you can rely on the default text icons (☰, 🔍, 🌙) from JS. 
+           We will use default text icons for maximum compatibility.
+        */
+    </style>
 </head>
 <body>
     <div class="menu-overlay" id="menuOverlay">
+        
         <div class="menu-user-info">
             <img src="https://via.placeholder.com/35x35?text=U" alt="User Avatar" class="user-avatar">
-            <span class="user-name">Ba kyaw</span> 
+            <span class="user-name">Ba kyaw (အကောင့်အမည်)</span> 
         </div>
+
         <ul>
-            <li><a href="register.html" style="color: #ff9800; font-weight: bold;">အကောင့်ဖွင့်ရန် / Login</a></li>
+             <li><a href="register.html" style="color: #ff9800; font-weight: bold;">အကောင့်ဖွင့်ရန် / Login</a></li>
+
             <li><a href="#">အဆင့်သတ်မှတ်ချက်</a></li>
             <li><a href="#">စာစဉ်တင်ရန်</a></li>
+            <li><a href="#">စာဖတ်စာရင်း</a></li>
             <li><a href="#">မိမိအကြိုက်</a></li> 
             <li><a href="#">ရွှေဝယ်ရန်</a></li>
+            <li><a href="#">ဆက်သွယ်ရန်</a></li>
         </ul>
     </div>
 
+
     <header class="main-header" id="mainHeader">
+        
         <div class="header-logo-container">
             <span class="logo-xianxia">Xianxia</span>
             <span class="logo-novel">Novel</span>
         </div>
+        
         <div class="search-container" id="searchContainer">
             <input type="text" placeholder="ဝတ္ထုအမည်ဖြင့် ရှာဖွေပါ..." class="search-input">
             <span class="icon close-search" id="closeSearch">X</span>
         </div>
+        
         <div class="header-icons">
             <span class="icon theme-toggle" id="themeToggle">🌙</span>
             <span class="icon search-icon" id="searchToggle">🔍</span> 
@@ -38,6 +55,7 @@
     </header>
 
     <div class="main-content-area">
+
         <div class="section-header-container">
             <h2 class="section-title">ခေတ်စားနေသည်</h2>
             <a href="#" class="view-more-btn">ပိုကြည့်ရန်</a>
@@ -46,29 +64,253 @@
         <div class="featured-list-container">
             <div class="featured-novel-card">
                 <div class="featured-card-cover">
-                    <img src="https://via.placeholder.com/80x110?text=Cover+1" class="cover-image">
+                    <img src="https://via.placeholder.com/80x110?text=Cover+A" alt="ဝတ္ထုအမည်ရှည်" class="cover-image">
                 </div>
-                <div class="featured-info"><h3>ကမ္ဘာအမျိုးမျိုး</h3></div>
+                <div class="featured-info">
+                    <h3>ကမ္ဘာအမျိုးမျိုး...</h3>
+                    <div class="list-tags">
+                        <span class="tag">Action</span>
+                        <span class="tag">Adv</span>
+                    </div>
+                </div>
                 <div class="featured-rating">⭐ 7.2</div>
             </div>
+            
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Cover+B" alt="ဆယ်ကျော်သက် ကောင်လေး" class="cover-image" style="background-color: purple;">
+                </div>
+                <div class="featured-info">
+                    <h3>ဆယ်ကျော်သက်...</h3>
+                    <div class="list-tags">
+                        <span class="tag">Action</span>
+                        <span class="tag">Romance</span>
+                    </div>
+                </div>
+                <div class="featured-rating">⭐ 8.8</div>
             </div>
-
+            
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Cover+C" alt="ဘယ်သူ့သားသမီးလဲ" class="cover-image" style="background-color: teal;">
+                </div>
+                <div class="featured-info">
+                    <h3>ဘယ်သူ့သားသမီးလဲ</h3>
+                    <div class="list-tags">
+                        <span class="tag">Historical</span>
+                        <span class="tag">Drama</span>
+                    </div>
+                </div>
+                <div class="featured-rating">⭐ 8.5</div>
+            </div>
+            
+             <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Cover+D" alt="နောက်ထပ်ဝတ္ထု" class="cover-image" style="background-color: brown;">
+                </div>
+                <div class="featured-info">
+                    <h3>နောက်ထပ်ဝတ္ထု</h3>
+                    <div class="list-tags">
+                        <span class="tag">Fantasy</span>
+                        <span class="tag">Magic</span>
+                    </div>
+                </div>
+                <div class="featured-rating">⭐ 9.1</div>
+            </div>
+            
+        </div>
+        <div class="section-header-container">
+            <h2 class="section-title">လူကြိုက်များ</h2>
+            <a href="#" class="view-more-btn">ပိုကြည့်ရန်</a>
+        </div>
+        <div class="featured-list-container">
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Pop+1" alt="လူကြိုက်များ" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>လူကြိုက်များ ၁</h3>
+                    <div class="list-tags"><span class="tag">Action</span><span class="tag">Adv</span></div>
+                </div>
+                <div class="featured-rating">⭐ 9.5</div>
+            </div>
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Pop+2" alt="လူကြိုက်များ" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>လူကြိုက်များ ၂</h3>
+                    <div class="list-tags"><span class="tag">Fantasy</span><span class="tag">Rom</span></div>
+                </div>
+                <div class="featured-rating">⭐ 8.9</div>
+            </div>
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Pop+3" alt="လူကြိုက်များ" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>လူကြိုက်များ ၃</h3>
+                    <div class="list-tags"><span class="tag">Drama</span><span class="tag">Life</span></div>
+                </div>
+                <div class="featured-rating">⭐ 7.7</div>
+            </div>
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Pop+4" alt="လူကြိုက်များ" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>လူကြိုက်များ ၄</h3>
+                    <div class="list-tags"><span class="tag">Horror</span><span class="tag">Mystery</span></div>
+                </div>
+                <div class="featured-rating">⭐ 8.1</div>
+            </div>
+        </div>
+        
+        <div class="section-header-container">
+            <h2 class="section-title">စာစဉ်သစ်များ</h2>
+            <a href="#" class="view-more-btn">ပိုကြည့်ရန်</a>
+        </div>
+        <div class="featured-list-container">
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=New+1" alt="စာစဉ်သစ်" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>စာစဉ်သစ် ၁</h3>
+                    <div class="list-tags"><span class="tag">Action</span><span class="tag">New</span></div>
+                </div>
+                <div class="featured-rating">⭐ 8.8</div>
+            </div>
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=New+2" alt="စာစဉ်သစ်" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>စာစဉ်သစ် ၂</h3>
+                    <div class="list-tags"><span class="tag">Fantasy</span><span class="tag">New</span></div>
+                </div>
+                <div class="featured-rating">⭐ 7.5</div>
+            </div>
+             <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=New+3" alt="စာစဉ်သစ်" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>စာစဉ်သစ် ၃</h3>
+                    <div class="list-tags"><span class="tag">Drama</span><span class="tag">New</span></div>
+                </div>
+                <div class="featured-rating">⭐ 9.0</div>
+            </div>
+             <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=New+4" alt="စာစဉ်သစ်" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>စာစဉ်သစ် ၄</h3>
+                    <div class="list-tags"><span class="tag">Sci-fi</span><span class="tag">New</span></div>
+                </div>
+                <div class="featured-rating">⭐ 7.8</div>
+            </div>
+        </div>
+        
+        <div class="section-header-container">
+            <h2 class="section-title">စဆုံးစာစဉ်များ</h2>
+            <a href="#" class="view-more-btn">ပိုကြည့်ရန်</a>
+        </div>
+        <div class="featured-list-container">
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Comp+1" alt="စဆုံး" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>စဆုံး ၁</h3>
+                    <div class="list-tags"><span class="tag">Complete</span><span class="tag">Fan</span></div>
+                </div>
+                <div class="featured-rating">⭐ 9.2</div>
+            </div>
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Comp+2" alt="စဆုံး" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>စဆုံး ၂</h3>
+                    <div class="list-tags"><span class="tag">Complete</span><span class="tag">Rom</span></div>
+                </div>
+                <div class="featured-rating">⭐ 8.0</div>
+            </div>
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Comp+3" alt="စဆုံး" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>စဆုံး ၃</h3>
+                    <div class="list-tags"><span class="tag">Complete</span><span class="tag">Act</span></div>
+                </div>
+                <div class="featured-rating">⭐ 7.9</div>
+            </div>
+            <div class="featured-novel-card">
+                <div class="featured-card-cover">
+                    <img src="https://via.placeholder.com/80x110?text=Comp+4" alt="စဆုံး" class="cover-image">
+                </div>
+                <div class="featured-info"><h3>စဆုံး ၄</h3>
+                    <div class="list-tags"><span class="tag">Complete</span><span class="tag">His</span></div>
+                </div>
+                <div class="featured-rating">⭐ 8.5</div>
+            </div>
+        </div>
+        
+        
         <div class="section-header-container">
             <h2 class="section-title">နောက်ဆုံးရအတ်ဒိတ်များ</h2>
+            <a href="#" class="view-more-btn">ပိုကြည့်ရန်</a>
         </div>
 
         <div class="novel-list-card">
             <div class="list-cover-container">
-                <img src="https://via.placeholder.com/80x110?text=Update" class="cover-image">
+                <img src="https://via.placeholder.com/80x110?text=Update+1" alt="နောက်ဆုံးမြေကမ္ဘာ ငါးဖမ်းသမား" class="cover-image">
                 <span class="status-overlay">Update</span>
             </div>
             <div class="list-info">
-                <h3>နောက်ဆုံးမြေကမ္ဘာ</h3>
-                <p class="list-synopsis">မမြင်နိုင်တဲ့ နာကျင်မှုကို ခံစားနေရသော စိတ်ကူးယဉ်စွန့်စားခန်း။</p>
-                <div class="list-meta"><span class="list-type-tag">Web Novel</span></div>
+                <h3>နောက်ဆုံးမြေကမ္ဘာ ငါးဖမ်းသမား</h3>
+                <p class="list-synopsis">တစ်မိုးအောက်က သမားတော်... မမြင်နိုင်တဲ့ နာကျင်မှုကို ခံစားနေရသော စိတ်ကူးယဉ်စွန့်စားခန်း။</p>
+                <div class="list-meta">
+                    <span class="list-type-tag">Web Novel (CN)</span>
+                    <div class="list-tags">
+                        <span class="tag">Action</span>
+                        <span class="tag">Fantasy</span>
+                    </div>
+                </div>
             </div>
             <div class="list-rating">⭐ 8.2</div>
         </div>
+        
+        <div class="novel-list-card">
+            <div class="list-cover-container">
+                <img src="https://via.placeholder.com/80x110?text=Update+2" alt="ဘယ်သူ့သားသမီးလဲ" class="cover-image" style="background-color: #554444;">
+                <span class="status-overlay">Update</span>
+            </div>
+            <div class="list-info">
+                <h3>ဘယ်သူ့သားသမီးလဲ</h3>
+                <p class="list-synopsis">ဘုရင်ကြီးရဲ့ သမီး.... အရပ်ထဲက အတင်းအဖျင်းတွေကို နားထောင်ရင်း ကြီးပြင်းလာရသော မင်းသမီး၏ဇာတ်လမ်း။</p>
+                <div class="list-meta">
+                    <span class="list-type-tag">Web Novel (CN)</span>
+                    <div class="list-tags">
+                        <span class="tag">Romance</span>
+                        <span class="tag">Historical</span>
+                    </div>
+                </div>
+            </div>
+            <div class="list-rating">⭐ 8.8</div>
+        </div>
+        
+        <div class="novel-list-card">
+            <div class="list-cover-container">
+                <img src="https://via.placeholder.com/80x110?text=Update+3" alt="ဇာတ်လမ်းအသစ်" class="cover-image" style="background-color: darkgreen;">
+                <span class="status-overlay">Update</span>
+            </div>
+            <div class="list-info">
+                <h3>ဇာတ်လမ်းအသစ်</h3>
+                <p class="list-synopsis">နတ်ဆိုးမင်းရဲ့ သမီးတော်၊ လောကကြီးကို ပြန်လည်စိုးမိုးနိုင်မယ့် အခွင့်အရေးကို လိုက်လံရှာဖွေနေတဲ့ စွန့်စားခန်း။</p>
+                <div class="list-meta">
+                    <span class="list-type-tag">Web Novel (CN)</span>
+                    <div class="list-tags">
+                        <span class="tag">Magic</span>
+                        <span class="tag">Adventure</span>
+                    </div>
+                </div>
+            </div>
+            <div class="list-rating">⭐ 9.5</div>
+        </div>
+        
     </div>
     
     <script src="script.js"></script>
